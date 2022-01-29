@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
+    margin: 0;
 }
 
 .header {
@@ -64,7 +65,7 @@ body {
 
 .section-1 .img-placeholder {
     width: 400px;
-    height: 250px;
+    height: 200px;
     background-color: wheat;
     color: black;
     flex: 0 0 auto;
