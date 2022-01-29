@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 8px 96px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+}
