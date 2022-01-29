@@ -42,7 +42,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 96px 96px;
+    padding: 96px;
     gap: 32px;
     background-color: #1F2937;
     color: #f9faf8;
@@ -122,7 +122,7 @@ body {
 .section-3 {
     background-color: #e5e7eb;
     align-items: center;
-    padding: 96px 96px;
+    padding: 96px;
 }
 
 .section-3 .quote {
@@ -139,7 +139,7 @@ body {
 }
 
 .section-4 {
-    padding: 96px 96px;
+    padding: 96px;
 }
 
 .section-4 .blue-box {
