@@ -9,7 +9,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 8px 96px;
+    padding: 16px 96px;
 }
 
 .header .logo {
@@ -21,6 +21,8 @@ body {
     display: flex;
     gap: 24px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .header a {
@@ -35,4 +37,9 @@ body {
 
 .footer{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 16px 0;
 }
