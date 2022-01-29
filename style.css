@@ -114,6 +114,25 @@ body {
     border-radius: 10px;
 }
 
+.section-3 {
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 32px 96px;
+}
+
+.section-3 .quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.section-3 .quote-author {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 96px;
+}
+
 .footer{
     display: flex;
     justify-content: center;
