@@ -35,6 +35,43 @@ body {
     flex-direction: column;
 }
 
+.section-1 {
+    display: flex;
+    padding: 32px 96px;
+    gap: 32px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.section-1 .title {
+    font-size: 32px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.section-1 .text {
+    padding: 8px 0;
+}
+
+.section-1 button {
+    padding: 8px 16px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.section-1 .img-placeholder {
+    width: 400px;
+    height: 250px;
+    background-color: wheat;
+    color: black;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer{
     display: flex;
     justify-content: center;
