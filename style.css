@@ -105,7 +105,9 @@ body {
 .section-2 .annotated-image .text {
     text-align: center;
     color: black;
+    font-size: 14px;
 }
+
 .section-2 .img-container {
     width: 90px;
     height: 90px;
@@ -129,8 +131,41 @@ body {
     display: flex;
     justify-content: end;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     padding-right: 96px;
+}
+
+.section-4 {
+    padding: 32px 96px;
+}
+
+.section-4 .blue-box {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 32px 96px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4 .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-4 .text {
+    font-size: 14px;
+}
+
+.section-4 button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 4px 16px;
+    font-weight: 600;
+    flex: 0 0 auto;
 }
 
 .footer{
@@ -140,4 +175,5 @@ body {
     background-color: #1F2937;
     color: #f9faf8;
     padding: 16px 0;
+    font-size: 14px;
 }
